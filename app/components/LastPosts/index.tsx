@@ -40,7 +40,7 @@ const LastPosts = async () => {
 
   return (
     <Section title="Last Posts">
-      <div className="w-full grid grid-cols-2 gap-2">
+      <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-2">
         {postsErr
           ? '-'
           : posts.slice(0, 6).map((post: any, index: number) => (
