@@ -6,3 +6,7 @@ html,
 body {
   @apply font-inter text-slate-700;
 }
+
+code {
+  @apply font-fira;
+}

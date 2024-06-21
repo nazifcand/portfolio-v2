@@ -53,7 +53,7 @@ const Me = () => {
               alt="Nazif Can DURGUT"
               width={75}
               height={75}
-              className="rounded-xl w-[75px] h-[75px]"
+              className="rounded-lg w-[75px] h-[75px]"
             />
           </div>
 

@@ -2,7 +2,7 @@ export const TITLE = 'Nazif Can DURGUT';
 
 export const URL = 'https://nazif.dev';
 
-const CAREERS = [
+export const CAREERS = [
   {
     title: 'Frontend Developer',
     company: 'Pure Technology',
@@ -11,7 +11,7 @@ const CAREERS = [
     end: 'Devam Ediyor',
     location: 'İstanbul, Türkiye',
     summary:
-      'Şuan aktif olarak trading bot sistemi için arayüz geliştiriyorum.',
+      'React ve Next.js kullanarak sass yazılımlar için arayüzler geliştiriyorum.',
     techs: [
       'next',
       'react',
