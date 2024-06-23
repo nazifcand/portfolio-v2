@@ -28,18 +28,21 @@ const Careers = () => {
               | <span>{item.type}</span>
             </span>
             <p className="mt-2 w-full md:max-w-[75%]">{item.summary}</p>
-            <div className="flex items-center flex-wrap gap-2 mt-4 grayscale-[25%] hover:grayscale-0">
-              {item.techs.map((i: keyof typeof TECH_IMAGES, iIndex) => (
-                <Image
-                  key={iIndex}
-                  loader={() => TECH_IMAGES[i].image}
-                  src={TECH_IMAGES[i].image}
-                  alt={i}
-                  width={20}
-                  height={20}
-                />
-              ))}
-            </div>
+
+            {item.techs.length > 0 && (
+              <div className="flex items-center flex-wrap gap-2 mt-4 grayscale-[25%] hover:grayscale-0">
+                {item.techs.map((i: keyof typeof TECH_IMAGES, iIndex) => (
+                  <Image
+                    key={iIndex}
+                    loader={() => TECH_IMAGES[i].image}
+                    src={TECH_IMAGES[i].image}
+                    alt={i}
+                    width={20}
+                    height={20}
+                  />
+                ))}
+              </div>
+            )}
           </div>
         ))}
       </div>
