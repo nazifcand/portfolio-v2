@@ -15,7 +15,7 @@ const Home = async () => {
       <Me />
       <Careers />
       <YoutubeVideos />
-      {/* <LastPosts /> */}
+      <LastPosts />
       <Repositories />
     </div>
   );

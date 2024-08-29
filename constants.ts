@@ -11,7 +11,7 @@ export const CAREERS = [
     end: 'Devam Ediyor',
     location: 'İstanbul, Türkiye',
     summary:
-      'React ve Next.js kullanarak sass yazılımlar için arayüzler geliştiriyorum.',
+      'React, Next.js ve Tailwind CSS kullanarak sass yazılımlar için arayüzler geliştiriyorum.',
     techs: [
       'next',
       'react',
@@ -119,8 +119,7 @@ export const CAREERS = [
     start: 'Kasım 2019',
     end: 'Ağustos 2020',
     location: 'Bursa, Türkiye',
-    summary:
-      'Müşteri bazlı geliştirilen sitelerdeki tasarımsal sorunları düzelttim. PHP ile e-ticaret altyapısı geliştirdim.',
+    summary: '',
     techs: ['php', 'html5', 'css3', 'sass', 'git', 'github', 'terminal'],
   },
   {

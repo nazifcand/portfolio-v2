@@ -34,12 +34,7 @@ const Repositories = async () => {
                   </span>
                 </span>
               </div>
-              <p className="line-clamp-2 text-sm">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. A
-                repellat quia excepturi cupiditate possimus accusamus, deleniti
-                commodi minus distinctio ut molestias tenetur culpa laborum.
-                Obcaecati autem deleniti harum consequuntur.
-              </p>
+              <p className="line-clamp-2 text-sm">{rep.description}</p>
             </Link>
           ))}
         </div>

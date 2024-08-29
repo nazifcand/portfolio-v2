@@ -6,35 +6,10 @@ const LastPosts = async () => {
   const postsErr = undefined;
   const posts: any[] = [
     {
-      slug: 'javascript-map-metodu',
-      title: 'JavaScript reduce() Metodu',
+      slug: 'task-management-app',
+      title: 'Task Management App',
       description:
-        'JavaScript reduce() metodunun kullanımı, avantajları ve gerçek dünya örnekleri.',
-    },
-    {
-      slug: 'javascript-map-metodu',
-      title: 'CSS Transform ile Ayna Efekti Oluşturma',
-      description:
-        'CSS transform özelliğini kullanarak web tasarımında ayna efekti oluşturmayı öğrenin.',
-    },
-    {
-      slug: 'javascript-map-metodu',
-      title: 'JavaScript map() Metodu',
-      description:
-        'JavaScript map() metodunu kullanarak dizileri dönüştürmek ve verileri işlemek için güçlü bir araç keşfedin.',
-    },
-    {
-      slug: 'javascript-map-metodu',
-      title:
-        'Three.js ile 3D Dünyaları Keşfedin: Web Tabanlı 3D Modellerin Gücü',
-      description:
-        'Three.js ile web sayfalarınızı görsel olarak zenginleştirin! 3D modeller ve animasyonlarla etkileyici web deneyimleri oluşturun.',
-    },
-    {
-      slug: 'javascript-map-metodu',
-      title: 'Modern JavaScript Araçları ve Kütüphaneleri',
-      description:
-        'Web geliştiriciler için en iyi JavaScript araçları ve kütüphaneleri.',
+        'React, NestJS ve PostgreSQL kullanarak geliştirdiğim fullstack task management uygulaması.',
     },
   ];
 
